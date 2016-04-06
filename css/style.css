@@ -1,7 +1,9 @@
+* {
+	box-sizing: border-box;
+}
 body {
 	margin: 0;
 	font-family: sans-serif;
-	background-image: url(image/backgr.jpg) | none[, url(image/backgr.jpg) | none]*;
 	height: 100%;
 	width: 100%;
 
@@ -15,12 +17,23 @@ body {
 	margin: 0 auto;
 
 }
+.header-wrapper {
+	position: fixed;
+	background-color: #fff;
+	top: 0;
+	left: 0;
+	width: 100%;
+	z-index: 1;
+}
 .header {
 	height: 60px;
+	overflow: hidden;
+
 }
 .header-logo {
 	display: block;
 	float: left;
+	padding: 2px 0;
 
 }
 ul.header-nav {
@@ -43,6 +56,13 @@ ul.header-nav > li > a {
 ul.header-nav > li > a:hover {
 	color: black;
 }
+.header-nav > li.header-nav-cta > a {
+	background-color: #2fca2d;
+	border-radius: 20px;
+	padding: 11px 30px; 
+	color: #fff;
+}
+/*
 .btn-buy {
 	color: white;
 	padding: 0 20px;
@@ -78,3 +98,49 @@ ul.header-nav > li > a:hover {
 .jumbo > img {
 	margin-top: 100px;
 }
+*/ 
+.product {
+	position: relative;
+	background: url(../image/backgr.jpg) center no-repeat ;
+	height: 1000px;
+	padding-top: 60px;
+	text-align: center;
+
+}
+	.product-title {
+		color: #374048;
+		font-size: 79px;
+		padding-top: 10px;
+
+	}
+	.product-description {
+		color: #8a9095;
+		font-size: 27px;
+		padding: 0 130px;
+		line-height: 44px;
+
+
+	}
+	.product-cta {
+		display: inline-block;
+		background-color: #2fca2d;
+		color: #fff;
+		text-decoration: none;
+		text-transform: uppercase;
+		font-size: 27px;
+		padding: 20px 40px;
+		border-radius: 30px;
+		margin-top: 40px;
+
+	}
+	.product-cta:hover {
+		background-color: #337ab7;
+	}
+	.product-image {
+		position: absolute;
+		width: 290px;
+		height: 328px;
+		bottom: 40px;
+		left: 50%;
+		margin: 0 0 0 -145px;
+	}
