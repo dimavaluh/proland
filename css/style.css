@@ -145,6 +145,7 @@ ul.header-nav > li > a:hover {
 	.product-cta:hover {
 		background-color: #337ab7;
 	}
+
 	.product-image {
 		position: absolute;
 		width: 290px;
@@ -177,9 +178,22 @@ ul.header-nav > li > a:hover {
 	position: absolute;
 	height:30px;
 	width:30px;
-	border-radius: 15px;
+	border-radius: 50%;
 	bottom:320px;
 	left:330px;
+	padding-top: 6px;
+
+}
+.product-nav-cta1:hover:before {
+	content: "";
+	position: absolute;
+	top: -8px;
+	left: -7px;
+	height: 40px;
+	width: 40px;
+	border: 3px solid #2fca2d;
+	border-radius: 50%;
+	background-color: transparent;
 }
 .product-nav-cta2 {
 	display: inline;
@@ -188,9 +202,21 @@ ul.header-nav > li > a:hover {
 	position: absolute;
 	height:30px;
 	width:30px;
-	border-radius: 15px;
+	border-radius: 50%;
 	bottom:110px;
 	left:345px;
+	padding-top: 6px;
+}
+.product-nav-cta2:hover:before {
+	content: "";
+	position: absolute;
+	top: -8px;
+	left: -7px;
+	height: 40px;
+	width: 40px;
+	border: 3px solid #2fca2d;
+	border-radius: 50%;
+	background-color: transparent;
 }
 .product-nav-cta3 {
 	display: inline;
@@ -199,9 +225,21 @@ ul.header-nav > li > a:hover {
 	position: absolute;
 	height:30px;
 	width:30px;
-	border-radius: 15px;
+	border-radius: 50%;
 	bottom:210px;
 	left:560px;
+	padding-top: 6px;
+}
+.product-nav-cta3:hover:before {
+	content: "";
+	position: absolute;
+	top: -8px;
+	left: -7px;
+	height: 40px;
+	width: 40px;
+	border: 3px solid #2fca2d;
+	border-radius: 50%;
+	background-color: transparent;
 }
 .product-nav-cta4 {
 	display: inline-block;
@@ -210,10 +248,82 @@ ul.header-nav > li > a:hover {
 	position: absolute;
 	height:30px;
 	width:30px;
-	border-radius: 15px;
+	border-radius: 50%;
 	bottom: 417px;
 	left: 637px;
+	padding-top: 6px;
 }
+.product-nav-cta4:hover:before {
+	content: "";
+	position: absolute;
+	top: -7px;
+	left: -7px;
+	height: 40px;
+	width: 40px;
+	border: 3px solid #2fca2d;
+	border-radius: 50%;
+	background-color: transparent;
+}
+.hiw-section {}
+.hiw-steps {
+	display: block;
+	list-style: none;
+	margin: 30px 0;
+	padding: 0;
+}
+.hiw-steps > .hiw-step {
+	position: relative;
+	float: left;
+	width: 33%;
+	padding: 20px;
+
+}
+.hiw-steps > .hiw-step > .hiw-step-image {
+	display: block;
+	width: 100px;
+	height: 100px;
+	margin: 0 auto;
+}
+.hiw-steps > .hiw-step > .hiw-step-title {
+	color: #374048;
+	font-size: 26px;
+	margin-bottom: 10px;
+
+}
+.hiw-steps > .hiw-step > .hiw-step-description {
+	color: #737c85;
+	font-size: 16px;
+	line-height: 26px
+}
+.hiw-steps > .hiw-step > .hiw-step-arrow {
+	display: block;
+	position: absolute;
+	top: 70px;
+	right: -5px;
+	width: 20px;
+	height: 20px;
+	border-top: 2px solid #a6afba;
+	border-right: 2px solid #a6afba;
+	transform : rotate(45deg);
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 .how_it_works {
 	background-color: #f8fbfd;
 	padding-top: 50px;
