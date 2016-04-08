@@ -6,6 +6,7 @@ body {
 	font-family: sans-serif;
 	height: 100%;
 	width: 100%;
+	text-align: center;
 
 }
 .clearfix {
@@ -15,6 +16,13 @@ body {
 	display: block;
 	width: 1024px;
 	margin: 0 auto;
+
+}
+.container1 {
+	display: block;
+	width: 1024px;
+	margin: 0 auto;
+	background-color: #f8fbfd;
 
 }
 .header-wrapper {
@@ -106,6 +114,7 @@ ul.header-nav > li > a:hover {
 	padding-top: 60px;
 	text-align: center;
 
+
 }
 	.product-title {
 		color: #374048;
@@ -144,3 +153,99 @@ ul.header-nav > li > a:hover {
 		left: 50%;
 		margin: 0 0 0 -145px;
 	}
+.product-name {
+	margin-top: 90px;
+	color: #374048;
+	font-size: 40px;
+}
+.product-descr {
+	color: #969da3;
+	font-size: 20px;
+    line-height: 24px;
+    margin: 0 150px;
+    line-height: 35px;
+
+}
+.product-pic {
+	margin: 100px 0;
+	position: relative;
+}
+.product-nav-cta1 {
+	display: inline;
+	background-color: #2fca2d;
+	color: #fff;
+	position: absolute;
+	height:30px;
+	width:30px;
+	border-radius: 15px;
+	bottom:320px;
+	left:330px;
+}
+.product-nav-cta2 {
+	display: inline;
+	background-color: #2fca2d;
+	color: #fff;
+	position: absolute;
+	height:30px;
+	width:30px;
+	border-radius: 15px;
+	bottom:110px;
+	left:345px;
+}
+.product-nav-cta3 {
+	display: inline;
+	background-color: #2fca2d;
+	color: #fff;
+	position: absolute;
+	height:30px;
+	width:30px;
+	border-radius: 15px;
+	bottom:210px;
+	left:560px;
+}
+.product-nav-cta4 {
+	display: inline-block;
+	background-color: #2fca2d;
+	color: #fff;
+	position: absolute;
+	height:30px;
+	width:30px;
+	border-radius: 15px;
+	bottom: 417px;
+	left: 637px;
+}
+.how_it_works {
+	background-color: #f8fbfd;
+	padding-top: 50px;
+}
+.title > h1 {
+	font-size: 50px;
+	color: #374048;
+}
+.title > p {
+	font-size: 25px;
+	line-height: 40px;
+	margin: 0 100px;
+	color: #374048;
+}
+.connect {
+	float: left;
+	width: 30%;
+	margin: 100px 15px 100px 15px;
+	color: #374048;
+	line-height: 30px;
+}
+.configure {
+	float: left;
+	width: 30%;
+	margin: 110px 15px 100px 15px;
+	color: #374048;
+	line-height: 30px;
+}
+.yay {
+	float: left;
+	width: 30%;
+	margin: 100px 15px 100px 15px;
+	color: #374048;
+	line-height: 30px;
+}
