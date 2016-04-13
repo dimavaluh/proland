@@ -1,9 +1,129 @@
+@font-face {
+    font-family: 'OpenSans';
+    src: url('../fonts/open-sans/300/open-sans-300.eot');
+    src: url('../fonts/open-sans/300/open-sans-300.eot?#iefix') format('embedded-opentype'),
+         url('../fonts/open-sans/300/open-sans-300.woff2') format('woff2'),
+         url('../fonts/open-sans/300/open-sans-300.woff') format('woff'),
+         url('../fonts/open-sans/300/open-sans-300.ttf') format('truetype'),
+         url('../fonts/open-sans/300/open-sans-300.svg#OpenSans') format('svg');
+    font-weight: 300;
+    font-style: normal;
+
+}
+@font-face {
+    font-family: 'OpenSans';
+    src: url('../fonts/open-sans/300-italic/open-sans-300-italic.eot');
+    src: url('../fonts/open-sans/300-italic/open-sans-300-italic.eot?#iefix') format('embedded-opentype'),
+         url('../fonts/open-sans/300-italic/open-sans-300-italic.woff2') format('woff2'),
+         url('../fonts/open-sans/300-italic/open-sans-300-italic.woff') format('woff'),
+         url('../fonts/open-sans/300-italic/open-sans-300-italic.ttf') format('truetype'),
+         url('../fonts/open-sans/300-italic/open-sans-300-italic.svg#OpenSans') format('svg');
+    font-weight: 300;
+    font-style: italic;
+
+}
+@font-face {
+    font-family: 'OpenSans';
+    src: url('../fonts/open-sans/400/open-sans-400.eot');
+    src: url('../fonts/open-sans/400/open-sans-400.eot?#iefix') format('embedded-opentype'),
+         url('../fonts/open-sans/400/open-sans-400.woff2') format('woff2'),
+         url('../fonts/open-sans/400/open-sans-400.woff') format('woff'),
+         url('../fonts/open-sans/400/open-sans-400.ttf') format('truetype'),
+         url('../fonts/open-sans/400/open-sans-400.svg#OpenSans') format('svg');
+    font-weight: 400;
+    font-style: normal;
+
+}
+@font-face {
+    font-family: 'OpenSans';
+    src: url('../fonts/open-sans/400-italic/open-sans-400-italic.eot');
+    src: url('../fonts/open-sans/400-italic/open-sans-400-italic.eot?#iefix') format('embedded-opentype'),
+         url('../fonts/open-sans/400-italic/open-sans-400-italic.woff2') format('woff2'),
+         url('../fonts/open-sans/400-italic/open-sans-400-italic.woff') format('woff'),
+         url('../fonts/open-sans/400-italic/open-sans-400-italic.ttf') format('truetype'),
+         url('../fonts/open-sans/400-italic/open-sans-400-italic.svg#OpenSans') format('svg');
+    font-weight: 400;
+    font-style: italic;
+
+}
+@font-face {
+    font-family: 'OpenSans';
+    src: url('../fonts/open-sans/600/open-sans-600.eot');
+    src: url('../fonts/open-sans/600/open-sans-600.eot?#iefix') format('embedded-opentype'),
+         url('../fonts/open-sans/600/open-sans-600.woff2') format('woff2'),
+         url('../fonts/open-sans/600/open-sans-600.woff') format('woff'),
+         url('../fonts/open-sans/600/open-sans-600.ttf') format('truetype'),
+         url('../fonts/open-sans/600/open-sans-600.svg#OpenSans') format('svg');
+    font-weight: 600;
+    font-style: normal;
+
+}
+@font-face {
+    font-family: 'OpenSans';
+    src: url('../fonts/open-sans/600-italic/open-sans-600-italic.eot');
+    src: url('../fonts/open-sans/600-italic/open-sans-600-italic.eot?#iefix') format('embedded-opentype'),
+         url('../fonts/open-sans/600-italic/open-sans-600-italic.woff2') format('woff2'),
+         url('../fonts/open-sans/600-italic/open-sans-600-italic.woff') format('woff'),
+         url('../fonts/open-sans/600-italic/open-sans-600-italic.ttf') format('truetype'),
+         url('../fonts/open-sans/600-italic/open-sans-600-italic.svg#OpenSans') format('svg');
+    font-weight: 600;
+    font-style: italic;
+
+}
+@font-face {
+    font-family: 'OpenSans';
+    src: url('../fonts/open-sans/700/open-sans-700.eot');
+    src: url('../fonts/open-sans/700/open-sans-700.eot?#iefix') format('embedded-opentype'),
+         url('../fonts/open-sans/700/open-sans-700.woff2') format('woff2'),
+         url('../fonts/open-sans/700/open-sans-700.woff') format('woff'),
+         url('../fonts/open-sans/700/open-sans-700.ttf') format('truetype'),
+         url('../fonts/open-sans/700/open-sans-700.svg#OpenSans') format('svg');
+    font-weight: 700;
+    font-style: normal;
+
+}
+@font-face {
+    font-family: 'OpenSans';
+    src: url('../fonts/open-sans/700-italic/open-sans-700-italic.eot');
+    src: url('../fonts/open-sans/700-italic/open-sans-700-italic.eot?#iefix') format('embedded-opentype'),
+         url('../fonts/open-sans/700-italic/open-sans-700-italic.woff2') format('woff2'),
+         url('../fonts/open-sans/700-italic/open-sans-700-italic.woff') format('woff'),
+         url('../fonts/open-sans/700-italic/open-sans-700-italic.ttf') format('truetype'),
+         url('../fonts/open-sans/700-italic/open-sans-700-italic.svg#OpenSans') format('svg');
+    font-weight: 700;
+    font-style: italic;
+
+}
+@font-face {
+    font-family: 'OpenSans';
+    src: url('../fonts/open-sans/800/open-sans-800.eot');
+    src: url('../fonts/open-sans/800/open-sans-800.eot?#iefix') format('embedded-opentype'),
+         url('../fonts/open-sans/800/open-sans-800.woff2') format('woff2'),
+         url('../fonts/open-sans/800/open-sans-800.woff') format('woff'),
+         url('../fonts/open-sans/800/open-sans-800.ttf') format('truetype'),
+         url('../fonts/open-sans/800/open-sans-800.svg#OpenSans') format('svg');
+    font-weight: 800;
+    font-style: normal;
+
+}
+@font-face {
+    font-family: 'OpenSans';
+    src: url('../fonts/open-sans/800-italic/open-sans-800-italic.eot');
+    src: url('../fonts/open-sans/800-italic/open-sans-800-italic.eot?#iefix') format('embedded-opentype'),
+         url('../fonts/open-sans/800-italic/open-sans-800-italic.woff2') format('woff2'),
+         url('../fonts/open-sans/800-italic/open-sans-800-italic.woff') format('woff'),
+         url('../fonts/open-sans/800-italic/open-sans-800-italic.ttf') format('truetype'),
+         url('../fonts/open-sans/800-italic/open-sans-800-italic.svg#OpenSans') format('svg');
+    font-weight: 800;
+    font-style: italic;
+
+}
 * {
 	box-sizing: border-box;
 }
 body {
 	margin: 0;
-	font-family: sans-serif;
+	font-family: OpenSans, sans-serif;
 	height: 100%;
 	width: 100%;
 	text-align: center;
@@ -154,6 +274,10 @@ ul.header-nav > li > a:hover {
 		left: 50%;
 		margin: 0 0 0 -145px;
 	}
+.the_product {
+	
+
+}
 .product-name {
 	margin-top: 90px;
 	color: #374048;
@@ -166,6 +290,13 @@ ul.header-nav > li > a:hover {
     margin: 0 150px;
     line-height: 35px;
 
+}
+.product-descr1 {
+	color: #969da3;
+	font-size: 18px;
+    line-height: 24px;
+    margin: 0 210px;
+    line-height: 35px;
 }
 .product-pic {
 	margin: 100px 0;
@@ -306,56 +437,41 @@ ul.header-nav > li > a:hover {
 	border-right: 2px solid #a6afba;
 	transform : rotate(45deg);
 }
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-.how_it_works {
-	background-color: #f8fbfd;
-	padding-top: 50px;
-}
-.title > h1 {
-	font-size: 50px;
-	color: #374048;
-}
-.title > p {
-	font-size: 25px;
-	line-height: 40px;
-	margin: 0 100px;
-	color: #374048;
-}
-.connect {
+.benefit {
+	position: relative;
+	width: 25%;
 	float: left;
-	width: 30%;
-	margin: 100px 15px 100px 15px;
-	color: #374048;
-	line-height: 30px;
+	list-style: none;
+	text-align: left;
+	margin: 10px 20px 0 50px;
 }
-.configure {
-	float: left;
-	width: 30%;
-	margin: 110px 15px 100px 15px;
+.section-title {
 	color: #374048;
-	line-height: 30px;
 }
-.yay {
-	float: left;
-	width: 30%;
-	margin: 100px 15px 100px 15px;
-	color: #374048;
-	line-height: 30px;
+.benefit-descr {
+	color: #82898f;
+	margin-top: -10px;
+	font-size: 12px;
 }
+.icons{
+	position: absolute;
+	width: 36px;
+	height: 36px;
+	top: 25px;
+	left: -45px;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
