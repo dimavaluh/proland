@@ -148,6 +148,12 @@ body {
 	margin: 0 auto;
 
 }
+.section-color {
+	display: block;
+	background-color: #f8fbfd;
+	width: 1024px;
+	margin: 0 auto;
+}
 .container1 {
 	display: block;
 	width: 1024px;
@@ -481,7 +487,7 @@ ul.header-nav > li > a:hover {
 	color: #969da3;
 	font-size: 20px;
     line-height: 24px;
-    margin: 0 150px;
+    margin: 0 150px 50px;
     line-height: 35px;
 }
 .iconed-list {
@@ -537,6 +543,7 @@ ul.header-nav > li > a:hover {
 
 .watch-features-section {
 	position: relative;
+	margin-top: 60px;
 }
 
 .watch-features-list:after {
@@ -546,8 +553,7 @@ ul.header-nav > li > a:hover {
 	width: 283px;
 	height: 510px;
 	position: absolute;
-	top: calc(50%-510px / 2)
-	left:calc (50%-283px / 2);
+	left: 370px;
 }
 
 .watch-features-list > .watch-features-list-item {
@@ -559,7 +565,102 @@ ul.header-nav > li > a:hover {
 .watch-features-list > .watch-features-list-item:nth-child(even) {
 	margin-left: 16.666%
 }
+.section-products-collection {
+	margin-bottom: 70px;
+}
+.products-collection-list {
+	list-style: none;
+	margin: 0 -15px;
+	padding: 0;
 
+}
+.products-collection-item {
+	width: 25%;
+	float: left;
+	text-align: center;
+	overflow: hidden;
+	padding: 0 15px;
+}
+.products-collection-item > .item-image {}
+.products-collection-item > .item-title {
+	color: #2FCA2D;
+	font-size: 16px;
+	line-height: 1;
+	margin-bottom: 0;
+
+}
+.products-collection-item > .item-description {
+	color: #b4bcc3;
+	font-size: 13px;
+	line-height: 1;
+	margin-top: 4px;
+	margin-bottom: 6px;
+}
+.products-collection-item > .item-price {
+	color: #9300FF;
+	font-size: 19px;
+	line-height: 1;
+	margin: 14px 0 20px; 
+	font-weight: 700;
+}
+.products-collection-item > .item-button {
+	display: inline-block;
+	color: #b4bcc3;
+	font-size: 12px;
+	line-height: 26px;
+	border: 1px solid #e1e4e7;
+	border-radius: 30px;
+	padding: 2px 33px 3px;
+	text-transform: uppercase;
+
+}
+.products-collection-item > .item-button:hover {
+	background-color: #333;
+}
+
+.section-products-watch {
+	padding: 50px 0 100px 50px;  
+	text-align: left;
+	position: relative;
+}
+.section-watch-description {
+	margin: 0 0 50px 0;
+	color: #969da3;
+    font-size: 20px;
+    line-height: 30px;
+    width: 50%;
+}
+.watch-description-list {
+	margin: 0;
+	padding: 0;
+}
+.watch-description-item {
+	color: #696f74;
+	position: relative;
+    display: block;
+    font-size: 20px;
+    font-weight: 300;
+    padding-left: 50px;
+}
+.watch-description-item:before {
+	content: "";
+	background: url('../image/check.png') center no-repeat;
+	display: block;
+	width: 32px;
+	height: 32px;
+	position: absolute;
+	top: 0;
+	left: 0;
+}
+.watch-description-list:after {
+	content: "";
+	display: block;
+	background: url('../image/watch4.png') center no-repeat;
+	width: 316px;
+	height: 568px;
+	position: absolute;
+	top: 80px;
+	right: 80px;
 
 
 
