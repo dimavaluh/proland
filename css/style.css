@@ -630,6 +630,15 @@ ul.header-nav > li > a:hover {
     line-height: 30px;
     width: 50%;
 }
+.section-watch-description:after {
+	background-color: #eee;
+	content: '';
+    width: 82px;
+    height: 6px;
+    display: block;
+    margin: 25px 0 0 0;
+}
+
 .watch-description-list {
 	margin: 0;
 	padding: 0;
