@@ -670,10 +670,160 @@ ul.header-nav > li > a:hover {
 	position: absolute;
 	top: 80px;
 	right: 80px;
+}
+.section-hands-on {
+	margin: 0;
+	padding: 0;
+}
+.hands-on-block  {
+	display: inline-block;
+	width: 50%;
+	height: 293px;
+	
+}
+.hands-on-image-1 {
+	width: 50%;
+	height: auto;
+	display: inline-block;
+	float: left;
+}
+.hands-on-image-2 {
+	width: 50%;
+	height: auto;
+	display: inline-block;
+	float: right;
+}
+.hands-on-title {
+	padding: 20px 0 0 0;
+	color: #374048;
+	font-weight: 800;
+	font-size: 32px;
 
+}
+.hands-on-description {
+	padding: 0 40px;
+	text-align: left;
+	color: #c0cad0;
+	font-size: 15px;
+	line-height: 30px;
+	font-weight: 300;
 
+}
+.section-reviews {
+	padding: 0;
+	margin: 0;
+	text-align: center;
+	width: 100%;
+}
+.reviews-list {
+	margin: 0;
+	padding: 0;
+}
+.reviews-item {
+	padding: 70px 10px 110px 10px;
+	position: relative;
+	display: inline-block;
+	width: 33%;
+	list-style: none;
+	color: #353535;
+	font-size: 17px;
+	font-weight: 300;
+}
+.reviews-item:before {
+	content: "";
+	background: url('../image/quote.png') center no-repeat;
+	display: block;
+	width: 43px;
+	height: 35px;
+	position: absolute;
+	top: 0;
+	left: 142px;
+}
+.reviews-item:nth-child(1):after {
+	content: "";
+	background: url('../image/reviewer1.png') center no-repeat;
+	display: block;
+	width: 225px;
+	height: 46px;
+	position: absolute;
+	top: 200px;
+	left: 66px;
+	opacity: 0.5;
+}
+.reviews-item:nth-child(2):after {
+	content: "";
+	background: url('../image/reviewer2.png') center no-repeat;
+	display: block;
+	width: 201px;
+	height: 43px;
+	position: absolute;
+	top: 203px;
+	left: 70px;
+	opacity: 0.5;
+}
+.reviews-item:nth-child(3):after {
+	content: "";
+	background: url('../image/reviewer3.png') center no-repeat;
+	display: block;
+	width: 169px;
+	height: 47px;
+	position: absolute;
+	top: 199px;
+	left: 85px;
+	opacity: 0.5;
+}
+.featured {
+	color: #374048;
+	font-weight: 600;
+	font-size: 22px;
+	padding: 100px 0 20px 0;
+}
+.featured-list {
+	opacity: 0.5;
 
+}
+.featured-item  {
+	float: left;
+	list-style: none;
+	padding-bottom: 70px;
+	
+}
+.featured-item img {
+	width: 160px;
+	height: 31px;
+	padding: 0 10px 0 0;
+}
+.faq-cta {
+	text-decoration: none;
+	color: #2FCA2D;
+}
+.faq-cta:hover {
+	color: #374048;
+}
+.faq-list {
+	padding: 0;
+	margin: 0;
+	list-style: none;
 
+}
+.faq-item {
+	float: left;
+	width: 50%;
+	text-align: left;
+	padding: 0 0 10px 20px;
+}
+.small-item-title {
+	color: #374048;
+	font-size: 20px;
+	font-weight: 600;
+	margin-bottom: -12px;
+
+}
+.small-item-description {
+	color: #82898f;
+	font-size: 15px;
+	font-weight: 300;
+}
 
 
 
