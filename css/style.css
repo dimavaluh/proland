@@ -490,6 +490,15 @@ ul.header-nav > li > a:hover {
     margin: 0 150px 50px;
     line-height: 35px;
 }
+.section-description:after {
+	background-color: #eee;
+	content: '';
+    width: 82px;
+    height: 6px;
+    display: block;
+ 	margin: 30px 0 0 315px;
+}
+
 .iconed-list {
 	list-style: none;
 	margin: 0;
@@ -824,7 +833,67 @@ ul.header-nav > li > a:hover {
 	font-size: 15px;
 	font-weight: 300;
 }
-
+.tech-specs-list {
+	padding: 0;
+	margin: 0;
+	list-style: none;
+}
+.tech-specs-item {
+	border-top: 1px solid rgba(130,137,143,.1);
+	float: left;
+	width: 33%;
+	text-align: left;
+	padding: 10px 0 10px 20px;
+	min-height: 250px;
+}
+.tech-specs-item-title {
+	color: #374048;
+	font-size: 20px;
+	font-weight: 600;
+	margin: 0 0 0 40px;
+}
+.tech-specs-item-description-list {
+	list-style: none;
+}
+.tech-specs-item-description {
+	color: #82898f;
+	font-size: 15px;
+	font-weight: 300;
+	padding: 2px 0;
+}
+.section-the-team {
+	padding-bottom: 100px;
+}
+.the-team-members {
+	width: 1024px;
+	overflow: hidden;
+}
+.the-team-member {
+	margin: 0 14px;
+	display: inline-block;
+	float: left;
+	width: 22%;
+	height: auto;
+	background-color: white;
+}
+.member-image {
+	height: auto;
+	width: 100%;
+}
+.member-title {
+	padding: 0;
+	margin: 0;
+	color: #374048;
+	font-size: 20px;
+	font-weight: 600;
+}
+.member-descrription {
+	padding: 0 0 16px 0;
+	margin:0;
+	color: #82898f;
+	font-size: 14px;
+	font-weight: 300;
+}
 
 
 
